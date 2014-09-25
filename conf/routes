@@ -7,6 +7,5 @@ GET     /                           controllers.Application.index
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
-GET     /v1/query                  controllers.Query.index
 POST    /v1/query/hive/validate    controllers.HiveQuery.validate
 POST    /v1/query/presto/validate  controllers.PrestoQuery.validate
