@@ -1,7 +1,6 @@
 package controllers
 
 import com.facebook.presto.sql.parser.{ParsingException, SqlParser}
-import controllers.Query._
 import play.api._
 import play.api.mvc._
 import play.api.mvc.BodyParsers.parse

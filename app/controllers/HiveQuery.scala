@@ -1,6 +1,6 @@
 package controllers
 
-import controllers.Query._
+
 import org.antlr.runtime.{CommonTokenStream, ANTLRStringStream}
 import org.apache.hadoop.hive.ql.parse.{ParseException, ParseDriver}
 import play.api._
